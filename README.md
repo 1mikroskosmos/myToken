@@ -12,7 +12,7 @@ Go ahead https://remix.ethereum.org/ a online IDE to create our Program
 #EXECUTING THE PROGRAM
 
 ##MINTING PROCESS
-      // mint function
+
     function mint (address _address, uint _value) public {
         totalSupply += _value; 
         balances[_address] += _value;
